@@ -1,0 +1,22 @@
+header {
+    background-color: var(--primary-background);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-bottom: var(--spacing-md); */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 100%;
+    /* min-width: 770px; */
+    font-family: "Roboto-100";
+}
+
+#header-title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 780px) {
+    header {
+        flex-direction: column;
+    }
+}

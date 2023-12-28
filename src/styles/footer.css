@@ -1,0 +1,28 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-background);
+    min-height: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-family: "Roboto-300";
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xxs);
+}
+
+footer a, footer a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer img {
+    width: 24px;
+}

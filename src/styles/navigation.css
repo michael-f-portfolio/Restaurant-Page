@@ -1,0 +1,32 @@
+#navigation {
+    display: flex;
+    justify-content: space-around;
+    /* flex: 1; */
+}
+
+#navigation button {
+    border: none;
+    background-color: var(--primary-background);
+    font-size: 2rem;
+    /* padding: 16px 64px; */
+    width: 160px;
+    height: 60px;
+    margin: 8px;
+    /* border-radius: 8px; */
+    font-family: "Roboto-300";
+}
+
+#navigation button:hover {
+    cursor: pointer;
+    background-color: var(--slate-700);
+}
+
+@media screen and (max-width: 780px) {
+    #navigation {
+        flex-direction: column;
+    }
+
+    #navigation button {
+        width: 95vw;
+    }
+}

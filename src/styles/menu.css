@@ -1,0 +1,57 @@
+.menu {
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 32px;
+    padding: 18px;
+    width: 300px;
+    background-color: var(--slate-500);
+    border-left: 12px solid var(--slate-800);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.item:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.itemPicture {
+    background-color: var(--slate-400);
+    padding: 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+.itemDescription {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.itemType, .itemYear, .itemCountry, .itemPrice {
+    display: flex;
+    gap: 4px;
+    justify-content: flex-end;
+}
+
+.itemPicture img {
+    width: 100px;
+    height: 150px;
+}
+
+@media screen and (max-width: 780px) {
+
+}

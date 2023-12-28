@@ -1,0 +1,15 @@
+.about {
+    /* width: 60vw;
+    height: 80vh; */
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUsTitle {
+    margin: 0;
+}
+
+.aboutUsDescription {
+    text-align: center;
+    padding: 16px;
+}
